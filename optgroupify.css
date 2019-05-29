@@ -1,0 +1,36 @@
+.optgroupify {
+
+  width: 187px;
+
+}
+
+.optgroupify ul {
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 187px;
+    background-color: white;
+    opacity: 1;
+}
+
+.optgroupify ul ul {
+    top: 0;
+    left: -180px;
+    margin-top: -1px;
+    display: none;
+    width:180px;
+}
+
+.optgroupify a {
+    color: black;
+}
+
+.optgroupify a:hover {
+    text-decoration: none;
+}
+
+.optgroupify li:hover {
+    background-color: lightgray;
+}
+
+
